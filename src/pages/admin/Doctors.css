@@ -1,0 +1,52 @@
+/* Doctors Page Styles */
+.doctors-title {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    background-color: rgb(182, 211, 240);
+    border-radius: 10px;
+    
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .ant-table-tbody > tr:hover > td {
+    background-color: #e8f6ff;
+  }
+  
+  .ant-table-tbody > tr > td {
+    font-size: 16px;
+    font-weight: bold; /* Make table data bold */
+    color: #2c3e50; /* Dark color for table data */
+    border-bottom: 1px solid #dee2e6; /* Add border bottom to each table cell */
+  }
+  
+  .ant-table-tbody > tr:last-child > td {
+    border-bottom: none; /* Remove bottom border for the last row */
+  }
+  
+  .ant-btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+  }
+  
+  .ant-btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+  }
+  
+  .ant-btn {
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,78 @@
+/* General Layout Styles */
+.layout {
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.layout h1 {
+  text-align: center;
+  color: #2f5f7c;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Form Labels */
+.layout .ant-form-item-label > label {
+  color: #003366;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Form Inputs */
+.layout .ant-input {
+  border: 2px solid #35667a;
+  background-color:  rgb(255, 255, 255);;
+  border-radius: 5px;
+  padding: 10px;
+  transition: border-color 0.3s;
+}
+
+.layout .ant-input:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 5px rgba(51, 153, 255, 0.5);
+}
+
+/* TimePicker */
+.layout .ant-picker {
+  
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);;
+  border:2px solid rgb(44, 73, 116);
+}
+/*
+.layout .ant-picker:hover, .layout .ant-picker-focused {
+ 
+  
+  
+  
+}
+
+/* Submit Button */
+.layout .btn-primary {
+  background-color: #003366;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-family: 'Arial', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.layout .btn-primary:hover {
+  background-color: #3399ff;
+}
+
+/* Additional Styling */
+.layout .ant-row {
+  margin-bottom: 20px;
+}
+
+.layout .Details {
+  color: #003366;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 10px;
+}

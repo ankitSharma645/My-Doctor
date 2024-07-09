@@ -1,0 +1,56 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f4f7; /* Light blue-gray background */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .hospital-logo {
+    width: 70px; 
+    height: 70px;/* Adjust size as needed */
+    margin-right: 20px;
+  }
+  
+  .system-tag {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary color */
+    margin-right: auto;
+  }
+  
+  .notification-section {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .fa-bell {
+    font-size: 20px;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .profile-link {
+    font-size: 18px;
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .profile-link:hover {
+    text-decoration: underline;
+  }
+  
+  .notification-section:hover .fa-bell,
+  .profile-link:hover {
+    color: #0056b3; /* Darker shade for hover */
+  }
+  
